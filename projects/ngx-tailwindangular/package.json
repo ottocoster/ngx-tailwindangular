@@ -1,6 +1,10 @@
 {
   "name": "ngx-tailwindangular",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ottocoster/ngx-tailwindangular"
+  },
   "peerDependencies": {
     "@angular/common": "^16.2.0",
     "@angular/core": "^16.2.0"
