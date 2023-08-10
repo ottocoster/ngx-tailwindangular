@@ -5,6 +5,17 @@
     "type": "git",
     "url": "https://github.com/ottocoster/ngx-tailwindangular"
   },
+  "keywords": [
+    "angular",
+    "tailwind",
+    "css",
+    "tailwindcss",
+    "tailwind-css",
+    "tailwindcss-angular"
+  ],
+  "author": "Otto Coster <npm@ottocoster.com>",
+  "license": "MIT",
+  "description": "A UI library with directives for Angular projects, styled using TailwindCSS.",
   "peerDependencies": {
     "@angular/common": "^16.2.0",
     "@angular/core": "^16.2.0"
