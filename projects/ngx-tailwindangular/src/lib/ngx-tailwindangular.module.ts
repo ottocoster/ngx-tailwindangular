@@ -7,4 +7,4 @@ import { DropdownMenuContentDirective } from './dropdown-menu-content.directive'
   imports: [],
   exports: [DropdownMenuDirective, DropdownMenuContentDirective],
 })
-export class NgxTailwindangularModule {}
+export class NgxTailwindAngularModule {}
