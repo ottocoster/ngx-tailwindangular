@@ -1,6 +1,30 @@
-# NgxTailwindAngular
+# ngx-TailwindAngular
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+A UI library with directives for Angular projects, styled using TailwindCSS. Homepage on [TailwindAngular.com](https://tailwindangular.com). Maintained by [Otto Coster](https://ottocoster.com)
+
+## Directives
+
+### taDropdownMenu
+
+```html
+<button taDropdownMenu>Toggle Menu</button>
+<div taDropdownMenuContent>
+  <p>Menu Item 1</p>
+  <p>Menu Item 2</p>
+</div>
+```
+
+### taTagFormControl
+
+```html
+<div taTagFormControl [formControl]="control"></div>
+```
+
+### taMultiSelect
+
+```html
+<select taMultiSelect [options]="['Option 1', 'Option 2', 'Option 3']"></select>
+```
 
 ## Code scaffolding
 
