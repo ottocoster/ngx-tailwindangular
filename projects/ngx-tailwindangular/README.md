@@ -26,6 +26,12 @@ A UI library with directives for Angular projects, styled using TailwindCSS. Hom
 <select taMultiSelect [options]="['Option 1', 'Option 2', 'Option 3']"></select>
 ```
 
+### Badge
+
+```html
+<ta-badge>Badge</ta-badge>
+```
+
 ## Code scaffolding
 
 Run `ng generate component component-name --project ngx-tailwindangular` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ngx-tailwindangular`.
