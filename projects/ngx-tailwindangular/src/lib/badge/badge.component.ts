@@ -17,19 +17,21 @@ export class BadgeComponent {
 
     if (!this.variant || this.variant === 'default') {
       classes +=
-        ' bg-primary-700 hover:bg-primary-700/80 text-primary-foreground';
+        ' bg-gray-800 hover:bg-gray-800/80 text-white bg-primary-800 hover:bg-primary-800/80 text-primary-foreground';
     }
 
     if (this.variant === 'secondary') {
-      classes += ' bg-gray-200 hover:bg-gray-200/80 text-gray-900';
+      classes +=
+        ' bg-gray-200 hover:bg-gray-200/80 text-gray-800 bg-secondary-200 hover:bg-secondary-200/80 text-secondary-foreground';
     }
 
     if (this.variant === 'destructive') {
-      classes += ' bg-red-500 hover:bg-red-500/80 text-white';
+      classes +=
+        ' bg-red-500 hover:bg-red-500/80 text-white bg-destructive-500 hover:bg-destructive-500/80 text-destructive-foreground';
     }
 
     if (this.variant === 'outline') {
-      classes += ' text-gray-900';
+      classes += ' text-gray-800 text-primary-foreground';
     }
 
     if (
@@ -41,7 +43,7 @@ export class BadgeComponent {
       classes += ' border-transparent';
     }
 
-    classes += ` ${this.class}`;
+    classes += this.class ? ` ${this.class}` : '';
 
     return classes;
   }
